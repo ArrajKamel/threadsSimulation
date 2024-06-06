@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95cf5081-b1e3-4370-adb4-e64ef2621ecb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SelectionPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimulationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteStrategyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concreteStrategyTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimulationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimulationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testing.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kamelarraj/Desktop/second_year/secondSem/FundamentalProgrammingTechniques(PT)/labs/assaignment_2/mainFolder/PT2024_30421_Arraj_Kamel_Assignment_2",
+    "last_opened_file_path": "/Users/kamelarraj/Desktop/second_year/secondSem/FundamentalProgrammingTechniques(PT)/labs/assignment_2/mainFolder/PT2024_30421_Arraj_Kamel_Assignment_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,7 +92,8 @@
       <updated>1710843904890</updated>
       <workItem from="1710843906075" duration="735000" />
       <workItem from="1712657195459" duration="2860000" />
-      <workItem from="1712855675537" duration="43292000" />
+      <workItem from="1712855675537" duration="44891000" />
+      <workItem from="1717690083883" duration="320000" />
     </task>
     <servers />
   </component>
@@ -114,6 +107,15 @@
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Strategy.java</url>
+          <line>3</line>
+          <properties class="Strategy" method="addTask">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>

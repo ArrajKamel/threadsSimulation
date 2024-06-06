@@ -112,15 +112,17 @@ public class SimulationManager implements Runnable{
     public void run() {
         int currentTime = 0  ,totalWaitPeriod = 0;
         float averageWaitingTime = 0;
-        String path = "/Users/kamelarraj/Desktop/second_year/secondSem/FundamentalProgrammingTechniques(PT)/labs/assaignment_2/mainFolder/PT2024_30421_Arraj_Kamel_Assignment_2/testing.txt";
+        String path = "/Users/kamelarraj/Desktop/second_year/secondSem/FundamentalProgrammingTechniques(PT)/labs/assignment_2/mainFolder/PT2024_30421_Arraj_Kamel_Assignment_2/testing.txt";
         List<String> lines = new ArrayList<>();
         StringBuilder lineBuilder = new StringBuilder();
         while (currentTime < timeLimit){
             System.out.println("\n" + "Time :" + currentTime);
             lines.add("Time : " +currentTime);
             System.out.println("waiting clients : ");
+
             //extract the task which they have to go inside the servers
             List<Task> tasksToBeProcessed = extractTaskToSendToServers(currentTime);
+
             //printing the waiting clients
             printingWaitingClients(lineBuilder);
             lines.add("waiting clients: " + lineBuilder);
